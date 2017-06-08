@@ -1,0 +1,7 @@
+// load variables
+@import "base/variables";
+
+// load foundation
+@import "base/foundation-settings";
+@import "foundation";
+@include foundation-everything;
