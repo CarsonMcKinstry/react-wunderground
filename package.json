@@ -48,7 +48,7 @@
         "test": "NODE_ENV=test karma start",
         "build": "webpack -p",
         "start": "npm run build && node .",
-        "dev": "nodemon ."
+        "dev": "nodemon --exec 'nf start'"
     },
     "keywords": [
         "react"
